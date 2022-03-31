@@ -1,5 +1,6 @@
 package com.fuyoo.adminauth.service.impl;
 
+import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import com.fuyoo.adminauth.entity.SysUser;
 import com.fuyoo.adminauth.mapper.SysUserMapper;
 import com.fuyoo.adminauth.service.ISysUserService;

@@ -1,1 +1,9 @@
+server:
+  port: 8080
 
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    name: fuyoo
+    password: fuyoo123$%
+    url: jdbc:mysql://192.168.108.100:3306/fuyoo_db?useUnicode=true&characterEncoding=utf-8&useSSL=false&serverTimezone=UTC&allowMultiQueries=true
